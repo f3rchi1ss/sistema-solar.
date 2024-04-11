@@ -1,0 +1,142 @@
+/* ESTILOS GENERALES  */
+html, body {
+	height: 100%;
+}
+
+/* Modificar el mdelo de cajas de css */
+html {
+	box-sizing: border-box
+}
+*, *:before, *:after {
+	box-sizing: inherit
+}
+/* Resetear margenes y padding */
+* {
+	margin: 0 solid;
+	padding: 0px;
+}
+body {
+	 font-family: "Open Sans", sans-serif;
+}
+.container  {
+	width: 95%;
+    max-width: 1366px;
+    margin: 18px auto
+}
+/* ESTILOS DE LOS CONTENIDOS */
+/* Estilos de header */
+ header {
+ 	background-color: green;
+ }
+ #logo {
+ 	float: left;
+ }
+ #infoContacto {
+ 	float: right;
+ 	margin-top: 22px;
+ }
+ #infoContacto i {
+	color: #fff;
+	margin-right: 12px;
+	font-size: 1.20rem;
+}
+/* Seccion 1 */
+article > section:nth-child(1) {
+	background-image: linear-gradient(to left top, rgba(55, 185, 30, 0.83), rgba(25, 59, 240, 0.83)), url(../images/fondo_superior.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center right
+}
+#intro {
+	display: flex;
+	padding: 50px 0;
+	flex-flow: row wrap;
+	height: 100%;
+	min-height: 600px;
+}
+#descripcion {
+	flex-basis: 60%;
+	padding: 0 1em 0 0;
+    flex-grow: 2;
+    color: #fff;
+}
+h1 {
+	font-size: 2.8rem;
+	font-family: arial, tahoma, verdana, sans-serif;
+	margin-bottom: 25px;
+}
+#descripcion p {
+	margin-bottom: 33px;
+	line-height: 1.65;
+}
+#descripcion i {
+	font-size: 0.9rem;
+	border: 1px solid;
+	border-radius: 50%;
+	padding: 5px;
+	background-color: #fff;
+	color: #008000;
+}
+#fomulario {
+  flex-basis: 30%;
+  background-color: rgba(0, 0, 0, 0.80);
+  padding: 20px 1em;
+  color: #fff;
+}
+#fomulario h2 {
+	font-size: 1.40rem;
+	margin-bottom: 40px;
+}
+label {
+	display: block;
+	margin: 10px 0;
+	font-size: 0.90rem;
+}
+input[type="text"], input[type="email"] {
+	display: inline-block;
+	width: 100%;
+	height: 45px;
+	padding: 0 1em;
+	margin: 5px 0;
+	border: 1px solid #ccc;
+}
+input[type="submit"] {
+	display: inline-block;
+	border: none;
+	background-color: #008000;
+	color: #fff;
+	width: 100%;
+	padding: 10px 1em;
+	margin: 25px auto;
+	font-size: ;
+}
+small a {
+	color: #fff;
+}
+/* Seccion 2 */
+acrticle > section:nth-child(2) {
+	padding: 60px 0;
+}
+#seccionDos {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	text-align: center;
+}
+#seccionDos i {
+	color: #13a3db;
+	font-size: 2.5rem;
+	border: 1px solid;
+	border-radius: 50%;
+	padding: 9px 26px;
+	width: 140px;
+	height: 140px;
+	margin-bottom: 35px;
+}
+.col h3 {
+	font-size: 1.10rem;
+	font-weight: 500;
+	margin-bottom: 12px;
+}
+
+             
